@@ -3,7 +3,15 @@
 CDash is a simple compiled programming language inspired by C and C++ designed to generate assembly code and `.exe` files. It supports basic syntax including variable declaration, input/output, and string concatenation.
 
 ---
+## Syntaxes
 
+ 🔢 Feature           | ✅ Syntax Example                                              | 📝 Description                                  |
+|----------------------|---------------------------------------------------------------|-------------------------------------------------|
+| Variable Declaration | `let name = "John";`<br>`let age = 25;`                      | Declares a variable with a string or number     |
+| User Input           | `let name = input("Enter your name: ");`                     | Gets input from user and stores in a variable   |
+| Output / Print       | `print("Hello");`<br>`print(name);`<br>`print("Hi " + name);`| Outputs text or variable values to console      |
+| Arithmetic           | `let a = 5 + 3;`<br>`let b = a * 2 - 4;`                      | Supports `+`, `-`, `*`, `/`                     |
+|----------------------|--------------------------------------------------------------|-------------------------------------------------|
 ## Features
 
 - Variable declarations with `let`
